@@ -36,7 +36,7 @@ from tensorflow.keras.layers import LeakyReLU
 from tensorflow.keras.layers import LeakyReLU, UpSampling2D, Conv2D
 from tensorflow.keras.models import Sequential, Model
 from tensorflow.keras import backend as K
-from tensorflow.keras.engine import InputSpec, Layer
+from tensorflow.keras.layers import InputSpec, Layer
 from tensorflow.keras import initializers, regularizers, constraints
 import numpy as np
 import pywt
