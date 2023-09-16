@@ -32,8 +32,8 @@ from keras.layers import Input, Dense, Flatten, Activation, Dropout, LSTM, Repea
 from keras.layers import Add, Subtract, Multiply, ReLU, ThresholdedReLU, Concatenate, GlobalAveragePooling1D, GlobalMaxPooling1D, GlobalAvgPool1D
 from tensorflow.keras.layers import Bidirectional
 from tensorflow.keras.layers import Conv1D, MaxPooling1D, UpSampling1D, LeakyReLU, UpSampling2D, Conv2D
-from keras.layers.advanced_activations import LeakyReLU
-from keras.layers.convolutional import UpSampling2D, Conv2D
+from tensorflow.keras.layers import LeakyReLU
+from tensorflow.keras.layers import LeakyReLU, UpSampling2D, Conv2D
 from tensorflow.keras.models import Sequential, Model
 from tensorflow.keras import backend as K
 from tensorflow.keras.engine import InputSpec, Layer
