@@ -32,7 +32,7 @@ from keras.layers import Add, Subtract, Multiply, ReLU, ThresholdedReLU, Concate
 from tensorflow.keras.layers import Bidirectional
 from tensorflow.keras.layers import Conv1D, MaxPooling1D, UpSampling1D
 from tensorflow.keras.layers import LeakyReLU
-from keras.layers.convolutional import UpSampling2D, Conv2D
+from tensorflow.keras.layers import UpSampling2D, Conv2D
 from keras.models import Sequential, Model
 import keras.backend as K
 import warnings 
